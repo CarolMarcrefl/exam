@@ -1,5 +1,7 @@
 body{
     background: rgba(249,244,240,1);
+    justify-content: center;
+    align-items: center;
 }
 
 .dog_flover{
@@ -523,12 +525,140 @@ li{
     padding-left: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-right: 40px;
 }
 .ans_title{
     display: flex;
+    justify-content: space-between;
+
 }
 .x{
     height: 32px;
     width: 32px;
-    margin-left: 630px;
+}
+.look_txt{
+    font-size: 18px;
+    font-family: "Oswald", serif;
+}
+.qustionssss{
+    margin-left: 300px;
+    justify-content: center; /* Центрируем по горизонтали */
+    width: 1200px;
+    display: flex;
+    font-size: 18px;
+    font-family: "Oswald", serif;
+    background-color: transparent; /* Прозрачный фон */
+    border: 2px solid #AB8264;
+    border-radius: 30px;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    margin-top: 10px;
+}
+.plus{
+    height: 32px;
+    width: 32px;
+}
+
+.two_dogs{
+    border-radius: 30px;
+    height: 360px;
+    width: 650px;
+}
+.history{
+    display: flex;
+    flex-direction: column; /* Располагаем элементы в столбик */
+    background-color: #EFE9E3;
+    padding: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 600px;
+    border-radius: 30px;
+}
+.autor{
+    display: flex;
+    color: #AB8264;
+    justify-content: space-between;
+}
+
+.corgi{
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+}
+.historyy{
+    display: flex;
+    width: 230px;
+    flex-direction: column; /* Располагаем элементы в столбик */
+    background-color: #EFE9E3;
+    padding: 20px;
+    padding-right: 30px;
+    padding-top: 50px;
+    border-radius: 30px;
+    font-family: "Oswald", serif;
+
+}
+.ans_little{
+    display: flex;
+}
+.two_d{
+    display: flex;
+    flex-direction: column; /* Располагаем элементы в столбик */
+}
+.right{
+    display: flex;
+    flex-direction: column; /* Располагаем элементы в столбик */
+    gap: 5px;
+}
+.animals{
+    display: flex;
+    gap: 10px;
+    margin-right: 500px;
+}
+
+.senter{
+    display: flex;
+    position: absolute;
+    flex-direction: column; /* Располагаем элементы в столбик */
+    justify-content: center; /* Центрируем по горизонтали */
+    flex-direction: column; /* Располагаем элементы в столбик */
+}
+
+.form_name{
+    display: flex;
+    flex-direction: column; /* Располагаем элементы в столбик */
+    gap:5 px;
+    font-family: 'Raleway';
+}
+
+.comment_top{
+    background-color: transparent; /* Прозрачный фон */
+    border: 2px solid #AB8264; /* Цвет и ширина рамки */
+    color: #AB8264; /* Цвет текста */
+    padding-top: 20px;
+    padding-left: 30px;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px; 
+}
+.forms_head{
+    display: flex;
+    gap: 20px;
+}
+.comment__b{
+    background-color: transparent; /* Прозрачный фон */
+    border: 2px solid #AB8264; /* Цвет и ширина рамки */
+    color: #AB8264; /* Цвет текста */
+    padding-top: 20px;
+    padding-left: 30px;
+    border-radius: 30px;
+    width: 660px;
+    height: 170px; 
+}
+.cat{
+    border-radius: 30px;
+    width: 660px;
+
 }
