@@ -663,5 +663,8 @@ li{
 .cat{
     border-radius: 30px;
     width: 660px;
+}
 
+.ask{
+    display: flex;
 }
